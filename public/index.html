@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" data-section="about">Sobre Mí</a></li>
+                <li><a href="#" data-section="projects">Proyectos</a></li>
+                <li><a href="#" data-section="contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>Hola, soy Yurisvin Quispe</h1>
+            <p>Soy un desarrollador web apasionado por crear soluciones innovadoras y eficientes.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="project-gallery">
+                <div class="project">
+                    <img src="img/comercio.jpg" alt="Proyecto 1">
+                    <h3>Sitio Web de Comercio Electrónico</h3>
+                    <p>Desarrollo de un sitio web responsivo para una tienda en línea que incluye un catálogo de productos, carrito de compras y un sistema de pagos seguro.</p>
+                    <p><strong>Tecnologías utilizadas:</strong> HTML, CSS, JavaScript, React, Node.js, MongoDB.</p>
+                    <p><strong>Características destacadas:</strong></p>
+                    <ul>
+                        <li>Diseño intuitivo y atractivo.</li>
+                        <li>Gestión de inventario en tiempo real.</li>
+                        <li>Integración con pasarelas de pago como PayPal y Stripe.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <img src="img/gestion tareas.jpg" alt="Proyecto 2">
+                    <h3>Aplicación de Gestión de Tareas</h3>
+                    <p>Aplicación móvil para la gestión de tareas, que permite a los usuarios crear, editar y eliminar tareas, establecer recordatorios y sincronizar datos entre dispositivos.</p>
+                    <p><strong>Tecnologías utilizadas:</strong> React Native, Redux, Firebase.</p>
+                    <p><strong>Características destacadas:</strong></p>
+                    <ul>
+                        <li>Notificaciones push para recordatorios.</li>
+                        <li>Sincronización en tiempo real entre múltiples dispositivos.</li>
+                        <li>Interfaz de usuario limpia y minimalista.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <img src="img/blog personal.jpg" alt="Proyecto 3">
+                    <h3>Blog Personal con CMS</h3>
+                    <p>Creación de un blog personal con un sistema de gestión de contenido (CMS) personalizado para facilitar la publicación y edición de artículos.</p>
+                    <p><strong>Tecnologías utilizadas:</strong> WordPress, PHP, MySQL, CSS, JavaScript.</p>
+                    <p><strong>Características destacadas:</strong></p>
+                    <ul>
+                        <li>Editor de texto enriquecido para la creación de contenido.</li>
+                        <li>Sistema de comentarios para interacción con los lectores.</li>
+                        <li>SEO optimizado para mejorar la visibilidad en motores de búsqueda.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <img src="proyecto4.jpg" alt="Proyecto 4">
+                    <h3>Plataforma de Aprendizaje en Línea</h3>
+                    <p>Desarrollo de una plataforma de aprendizaje en línea que ofrece cursos en diversos temas, con video lecciones, quizzes y seguimiento de progreso.</p>
+                    <p><strong>Tecnologías utilizadas:</strong> Django, Python, PostgreSQL, HTML, CSS, JavaScript.</p>
+                    <p><strong>Características destacadas:</strong></p>
+                    <ul>
+                        <li>Registro y gestión de usuarios.</li>
+                        <li>Sistema de evaluación con quizzes interactivos.</li>
+                        <li>Panel de administración para la gestión de cursos y contenido.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <img src="proyecto5.jpg" alt="Proyecto 5">
+                    <h3>Aplicación de Clima</h3>
+                    <p>Aplicación web que proporciona información meteorológica en tiempo real para cualquier ubicación, con gráficos de pronóstico y alertas de clima severo.</p>
+                    <p><strong>Tecnologías utilizadas:</strong> Vue.js, Axios, API de OpenWeatherMap.</p>
+                    <p><strong>Características destacadas:</strong></p>
+                    <ul>
+                        <li>Búsqueda por ciudad y ubicación geográfica.</li>
+                        <li>Visualización de datos meteorológicos actuales y pronósticos a 7 días.</li>
+                        <li>Alertas personalizadas para condiciones climáticas severas.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <img src="proyecto6.jpg" alt="Proyecto 6">
+                    <h3>Juego Web Interactivo</h3>
+                    <p>Desarrollo de un juego web interactivo, tipo puzzle, que desafía a los usuarios a resolver acertijos para avanzar a través de diferentes niveles.</p>
+                    <p><strong>Tecnologías utilizadas:</strong> HTML5, CSS3, JavaScript, Phaser.js.</p>
+                    <p><strong>Características destacadas:</strong></p>
+                    <ul>
+                        <li>Gráficos y animaciones atractivas.</li>
+                        <li>Niveles progresivos con dificultad creciente.</li>
+                        <li>Tabla de puntuaciones para competir con otros jugadores.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="project">
+                <h2>Contacto</h2>
+            <form id="formulario" action="" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+            
+            <div class="project">
+            <table id="table">
+                <caption><h2>Usuarios registrados</h2></caption>
+            <thead>
+                <tr>
+                    <th>UsuarioID</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Mensaje</th>
+                </tr>
+            </thead>
+            <tbody id="tablaBody">
+
+            </tbody>
+            
+            </table>
+            </section>
+        </section>  
+            
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
